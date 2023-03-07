@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    /* border: 2px solid red; */
+    padding: 100px 0;
+    background-color: hsl(216, 12%, 8%);
+}
+.card{
+    /* border: 2px solid green; */
+    margin: auto;
+    width: 25%;
+    max-width: 375px;
+    border-radius: 20px;
+    background-color: hsl(213, 19%, 18%);
+    padding: 10px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+.star{
+    margin: 10px 20px;
+    /* border: 2px solid red; */
+    padding: 10px;
+    border-radius: 20px;
+    background-color: hsl(210, 20%, 23%);
+}
+.rate{
+    margin: 10px;
+    padding: 10px;
+    background-color: hsl(210, 20%, 23%);
+    border-radius: 20px;
+    width: 40px;
+    text-align: center;
+    color: hsl(216, 12%, 54%);
+}
+.rate:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.rate:active{
+    color: hsl(25, 97%, 53%);
+}
+.rate:focus{
+    background-color: hsl(217, 12%, 63%);
+}
+.rateno{
+    text-decoration: none;
+    color: hsl(217, 12%, 63%);
+}
+.mybutton{
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 10px;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+}
+.mybutton:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+.btn{
+    /* border: 2px solid red; */
+    text-decoration: none;
+    color: white;
+}
+.btn:hover{
+color: hsl(25, 97%, 53%);
+}
+h1{
+    margin: 10px 20px;
+    color: white;
+}
+p{
+    margin: 10px 20px;
+    color: hsl(217, 12%, 63%);
+}
