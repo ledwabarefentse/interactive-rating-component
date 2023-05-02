@@ -12,7 +12,7 @@ Creating a interactive rating component page.
 ## Getting Started
 
 ## Live view
-[Live view]()
+[Live view]
 
 ## Prerequisite
 
